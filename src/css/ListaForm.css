@@ -1,0 +1,11 @@
+input{
+    background-color: rgb(255, 210, 86);
+    padding: 2rem 0 2rem 0;
+    border-style: none;
+    outline-style: none;
+    width: 100%;
+    text-align: center;
+}
+#btn_add_task{
+    display: none;
+}
