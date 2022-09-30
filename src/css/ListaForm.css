@@ -5,6 +5,16 @@ input{
     outline-style: none;
     width: 100%;
     text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    color: rgb(86, 86, 74);
+    font-weight: 400;
+    font-size: 1rem;
+}
+input::placeholder{
+    font-family: 'Inter Tight', sans-serif;
+    color: rgb(86, 86, 74);
+    font-weight: 400;
+    font-size: 1rem;
 }
 #btn_add_task{
     display: none;

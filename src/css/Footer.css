@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Inter Tight', sans-serif;
+    color: rgb(121, 121, 107);
+    font-weight: 400;
+    font-size: .85rem;
+    padding: .3125rem;
+    gap: .3125rem;
+}
+footer a, a:hover, a:active, a:visited{
+    text-decoration: none;
+    color:rgb(121, 121, 107);
+}

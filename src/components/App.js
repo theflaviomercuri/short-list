@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import ListaForm from "./components/ListaForm";
-import ListaLista from "./components/ListaLista";
-import AzzeraLista from "./components/AzzeraLista";
-import { getCookie, setCookie, deleteCookie } from "./hooks/manCookies";
-/* import Header from "./components/Header"; */
+import ListaForm from "./ListaForm";
+import ListaLista from "./ListaLista";
+import AzzeraLista from "./AzzeraLista";
+import { getCookie, setCookie, deleteCookie } from "../hooks/manCookies";
+import Footer from "./Footer";
 
 export default function App(){
     
@@ -15,7 +15,7 @@ export default function App(){
 
     const checkAndPass = (task) => {
        let nuovalista = [...lista, task];
-       setLista(nuovalista)
+       setLista(nuovalista);
     }
 
     const cancellaUno = (id)=>{
@@ -39,6 +39,7 @@ export default function App(){
                 <ListaLista cancellaUno={cancellaUno} lista={lista}/>
             </ul>
             <AzzeraLista cancellaLista={cancellaLista} id="btn_azzeraLista"/>
+            <Footer/>
         </main>
     );
 }

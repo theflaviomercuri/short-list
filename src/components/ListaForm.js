@@ -21,7 +21,7 @@ export default function ListaForm({checkAndPass}){
     return(
         <form onSubmit={handleSubmit}>
             {/* <label htmlFor="task">Inserisci nuovo task:</label> */}
-            <input ref={searchInput} value={task} type="text" id="task" placeholder="Scrivi e premi invio..." onChange={handleNameChange}/>
+            <input autocomplete="off" ref={searchInput} value={task} type="text" id="task" placeholder="scrivi e premi invio..." onChange={handleNameChange}/>
             <ButtonGeneral id="btn_add_task" type="submit" value="submit">Aggiungi</ButtonGeneral>
         </form>
     );

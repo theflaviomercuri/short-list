@@ -4,5 +4,22 @@
     padding: 1rem 0 1rem 0;
     background-color: rgb(238, 238, 207);
     margin-top: .3125rem;
+    font-family: 'Inter Tight', sans-serif;
+    color: rgb(86, 86, 74);
+    font-weight: 400;
+    font-size: 1rem;
+    transition: .3s ease-in-out;
+}
 
+#btn_azzeraLista:hover{
+    background-color: rgb(86, 86, 74);
+    margin-top: .3125rem;
+    font-family: 'Inter Tight', sans-serif;
+    color: rgb(238, 238, 207);
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#btn_azzeraLista_hide{
+    display: none;
 }
